@@ -24,7 +24,8 @@ The project followed a structured machine learning pipeline:
 
 3. Exploratory Data Analysis (EDA): Performed in-depth analysis using visualizations to understand the dataset's structure, distributions, and relationships. Key visuals generated during this phase include:
 
-[-> INSERT GRAPH HERE: Feature Correlation Heatmap]
+<img width="935" height="528" alt="image" src="https://github.com/user-attachments/assets/02b9b29d-69b5-4849-8366-60b87e287146" />
+
 A heatmap showing the correlation between different pollutants and the AQI. This helped identify which features were most influential.
 
 [-> INSERT GRAPH HERE: AQI Distribution Histogram]
