@@ -65,7 +65,7 @@ To run this project on your local machine, follow these steps:
 ### 1. lone the repository:
     git clone https://github.com/your-username/your-repo-name.git
       cd your-repo-name
-## 2. Create a requirements.txt file with the following content:
+### 2. Create a requirements.txt file with the following content:
       numpy
       pandas
       matplotlib
@@ -73,13 +73,12 @@ To run this project on your local machine, follow these steps:
       scikit-learn
 ### 3. Install the required libraries:
     pip install -r requirements.txt 
-## 4. Run the Jupyter Notebook:
+### 4. Run the Jupyter Notebook:
     Open the .ipynb file in Jupyter Notebook or Google Colab and run the cells sequentially to see the entire workflow from data cleaning to model evaluation.
 
 ## Results and Conclusion
 The models were thoroughly evaluated on the test dataset to measure their real-world performance. The results clearly indicate a top-performing model.
 
-[-> INSERT GRAPH HERE: Actual vs. Predicted Values Plot]
 A scatter plot comparing the actual AQI values against the predicted values from our best model (KNN). The tight clustering of points along the diagonal line visually confirms the model's high accuracy.
 
 The table below summarizes the performance of each model on the test data:
