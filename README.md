@@ -34,10 +34,10 @@ A histogram of the AQI target variable. This showed the frequency of different a
 
 4. Model Training: Trained and evaluated four different regression models to find the most effective one:
 
-- Linear Regression
-- K-Nearest Neighbors (KNN) Regressor
-- Decision Tree Regressor
-- Random Forest Regressor
+   - Linear Regression
+   - K-Nearest Neighbors (KNN) Regressor
+   - Decision Tree Regressor
+   - Random Forest Regressor
 
 5. Model Evaluation: Assessed the models based on two key metrics: R-squared (R^2) Score to measure the proportion of variance explained by the model, and Root Mean Squared Error (RMSE) to measure prediction error.
 
@@ -60,18 +60,18 @@ Features **(Pollutants)**: PM_2.5, PM_10, NO, NO_2, NO_x, NH_3, CO, SO_2, O_3, B
 ## Installation and Usage
 To run this project on your local machine, follow these steps:
 
-1. lone the repository:
+### 1. lone the repository:
     _ ** git clone https://github.com/your-username/your-repo-name.git
-      cd your-repo-name**_
-2. Create a requirements.txt file with the following content:
+      cd your-repo-name **_
+### 2. Create a requirements.txt file with the following content:
       numpy
       pandas
       matplotlib
       seaborn
       scikit-learn
-3. Install the required libraries:
-_    **pip install -r requirements.txt**_
-4. Run the Jupyter Notebook:
+### 3. Install the required libraries:
+    _    ** pip install -r requirements.txt **_
+### 4. Run the Jupyter Notebook:
     Open the .ipynb file in Jupyter Notebook or Google Colab and run the cells sequentially to see the entire workflow from data cleaning to model evaluation.
 
 ## Results and Conclusion
@@ -90,13 +90,14 @@ Linear Regression	0.744 (74.4%)	🆗 Good Baseline
 Export to Sheets
 The K-Nearest Neighbors (KNN) model emerged as the most effective, with an R² score of 0.847. This indicates that the model can successfully explain approximately 85% of the variance in the AQI based on the provided pollutant data, making it a robust and reliable predictor.
 
-🔮 Future Scope
-While the current model performs well, there are several avenues for future improvement:
+## Future Scope
+**While the current model performs well, there are several avenues for future improvement:
+**
 
-Advanced Models: Implement more complex models like XGBoost, LightGBM, or CatBoost, which often yield higher accuracy.
-
-Hyperparameter Tuning: Use techniques like GridSearchCV or RandomizedSearchCV to find the optimal parameters for the KNN model and further boost its performance.
-
-Additional Features: Incorporate meteorological data (e.g., temperature, humidity, wind speed) as these factors significantly influence air quality.
-
-Deployment: Deploy the final model as a simple web application using Flask or Streamlit to make it accessible to a wider audience.
+  - Advanced Models: Implement more complex models like XGBoost, LightGBM, or CatBoost, which often yield higher accuracy.
+  
+  - Hyperparameter Tuning: Use techniques like GridSearchCV or RandomizedSearchCV to find the optimal parameters for the KNN model and further boost its performance.
+  
+  - Additional Features: Incorporate meteorological data (e.g., temperature, humidity, wind speed) as these factors significantly influence air quality.
+  
+  - Deployment: Deploy the final model as a simple web application using Flask or Streamlit to make it accessible to a wider audience.
