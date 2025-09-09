@@ -3,12 +3,12 @@
 A machine learning project to predict the Air Quality Index (AQI) using daily atmospheric pollutant data. This model analyzes various pollutants to forecast the overall air quality, providing a valuable tool for environmental monitoring and public health awareness.
 
 ## Table of Contents
-- [Problem Statement](Problem Statement)
-- [Project Workflow](Project Workflow)
+- [Problem Statement](ProblemStatement)
+- [Project Workflow](ProjectWorkflow)
 - [Dataset](Dataset)
-- [Technology Stack](Technology Stack)
-- [Installation and Usage](Installation and Usage)
-- [Results and Conclusion]()
+- [Technology Stack](TechnologyStack)
+- [Installation and Usage](InstallationandUsage)
+- [Results and Conclusion](InstallationandUsage)
 - [Future Scope]()
 
  ## Problem Statement
@@ -41,14 +41,14 @@ A histogram of the AQI target variable. This showed the frequency of different a
 
 5. Model Evaluation: Assessed the models based on two key metrics: R-squared (R^2) Score to measure the proportion of variance explained by the model, and Root Mean Squared Error (RMSE) to measure prediction error.
 
-📊 Dataset
+ ## Dataset
 The dataset used for this project is air quality data.csv, containing daily air quality measurements from various cities.
 
 Features **(Pollutants)**: PM_2.5, PM_10, NO, NO_2, NO_x, NH_3, CO, SO_2, O_3, Benzene, Toluene, Xylene.
 
 **Target Variable**: AQI (Air Quality Index - numerical value).
 
-💻 Technology Stack
+## Technology Stack
 - Language: Python 3.x
 - Libraries:
   - Pandas (for data manipulation)
@@ -57,7 +57,7 @@ Features **(Pollutants)**: PM_2.5, PM_10, NO, NO_2, NO_x, NH_3, CO, SO_2, O_3, B
   - Matplotlib & Seaborn (for data visualization)
   - Environment: Jupyter Notebook / Google Colab
 
-🚀 Installation and Usage
+## Installation and Usage
 To run this project on your local machine, follow these steps:
 
 1. lone the repository:
@@ -74,7 +74,7 @@ _    **pip install -r requirements.txt**_
 4. Run the Jupyter Notebook:
     Open the .ipynb file in Jupyter Notebook or Google Colab and run the cells sequentially to see the entire workflow from data cleaning to model evaluation.
 
-✨ Results and Conclusion
+## Results and Conclusion
 The models were thoroughly evaluated on the test dataset to measure their real-world performance. The results clearly indicate a top-performing model.
 
 [-> INSERT GRAPH HERE: Actual vs. Predicted Values Plot]
@@ -82,7 +82,7 @@ A scatter plot comparing the actual AQI values against the predicted values from
 
 The table below summarizes the performance of each model on the test data:
 
-Model	Test R² Score	Verdict
+**Model	Test R² Score	Verdict**
 K-Neighbors Regressor	0.847 (84.7%)	✅ Best Performer
 Decision Tree Regressor	0.746 (74.6%)	❌ Overfitting
 Linear Regression	0.744 (74.4%)	🆗 Good Baseline
