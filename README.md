@@ -4,12 +4,12 @@ A machine learning project to predict the Air Quality Index (AQI) using daily at
 
 ## Table of Contents
 - [Problem Statement](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-/blob/main/README.md#problem-statement)
-- [Project Workflow](ProjectWorkflow)
-- [Dataset](Dataset)
-- [Technology Stack](TechnologyStack)
-- [Installation and Usage](InstallationandUsage)
-- [Results and Conclusion](InstallationandUsage)
-- [Future Scope]()
+- [ProjectWorkflow](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#project-workflow)
+- [Dataset](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#dataset)
+- [Technology Stack](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#technology-stack)
+- [Installation and Usage](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#installation-and-usage)
+- [Results and Conclusion](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#results-and-conclusion)
+- [Future Scope](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-?tab=readme-ov-file#future-scope)
 
  ## Problem Statement
 Air pollution is a critical environmental and health issue worldwide. High AQI values are linked to severe health problems, including respiratory illnesses and cardiovascular diseases. The ability to accurately predict the AQI in advance allows for timely public health warnings and proactive measures to mitigate pollution.
