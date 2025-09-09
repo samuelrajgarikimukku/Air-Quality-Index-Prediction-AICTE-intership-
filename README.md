@@ -91,7 +91,7 @@ Export to Sheets
 The K-Nearest Neighbors (KNN) model emerged as the most effective, with an R² score of 0.847. This indicates that the model can successfully explain approximately 85% of the variance in the AQI based on the provided pollutant data, making it a robust and reliable predictor.
 
 ## Future Scope
-**While the current model performs well, there are several avenues for future improvement:
+** While the current model performs well, there are several avenues for future improvement:
 **
 
   - Advanced Models: Implement more complex models like XGBoost, LightGBM, or CatBoost, which often yield higher accuracy.
