@@ -3,7 +3,7 @@
 A machine learning project to predict the Air Quality Index (AQI) using daily atmospheric pollutant data. This model analyzes various pollutants to forecast the overall air quality, providing a valuable tool for environmental monitoring and public health awareness.
 
 ## Table of Contents
-- [Problem Statement]([ProblemStatement](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-/blob/main/README.md#problem-statement))
+- [Problem Statement](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-/blob/main/README.md#problem-statement)
 - [Project Workflow](ProjectWorkflow)
 - [Dataset](Dataset)
 - [Technology Stack](TechnologyStack)
@@ -41,7 +41,7 @@ A histogram of the AQI target variable. This showed the frequency of different a
    - Decision Tree Regressor
    - Random Forest Regressor
 
-5. Model Evaluation: Assessed the models based on two key metrics: R-squared (R^2) Score to measure the proportion of variance explained by the model, and Root Mean Squared Error (RMSE) to measure prediction error.
+5. Model Evaluation: Assessed the models based on two key metrics: R-squared $`R^2`$ Score to measure the proportion of variance explained by the model, and Root Mean Squared Error (RMSE) to measure prediction error.
 
  ## Dataset
 The dataset used for this project is air quality data.csv, containing daily air quality measurements from various cities.
