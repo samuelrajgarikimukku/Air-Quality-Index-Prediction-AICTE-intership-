@@ -3,25 +3,26 @@
 A machine learning project to predict the Air Quality Index (AQI) using daily atmospheric pollutant data. This model analyzes various pollutants to forecast the overall air quality, providing a valuable tool for environmental monitoring and public health awareness.
 
 ## Table of Contents
-- [Problem Statement](ProblemStatement)
-- [Project Workflow](ProjectWorkflow)
+- [Problem Statement](Problem Statement)
+- [Project Workflow](Project Workflow)
 - [Dataset](Dataset)
-- [Technology Stack](TechnologyStack)
-- [Installation and Usage](InstallationandUsage)
+- [Technology Stack](Technology Stack)
+- [Installation and Usage](Installation and Usage)
 - [Results and Conclusion]()
 - [Future Scope]()
 
-🎯 Problem Statement
+🎯 ##Problem Statement
 Air pollution is a critical environmental and health issue worldwide. High AQI values are linked to severe health problems, including respiratory illnesses and cardiovascular diseases. The ability to accurately predict the AQI in advance allows for timely public health warnings and proactive measures to mitigate pollution.
 
 This project aims to develop a robust regression model that can predict the numerical AQI value based on the concentrations of key air pollutants.
 
-🔄 Project Workflow
+🔄 ##Project Workflow
 The project followed a structured machine learning pipeline:
 
-1. Data Cleaning & Preprocessing: Handled missing values by imputing the median, ensuring data integrity. Outliers were identified using box plots and treated using the Interquartile Range (IQR) method to prevent them from skewing the model's performance.
+1. Data Cleaning & Preprocessing:
+   Handled missing values by imputing the median, ensuring data integrity. Outliers were identified using box plots and treated using the Interquartile Range (IQR) method to prevent them from skewing the model's performance.
 
-2. Exploratory Data Analysis (EDA): Performed in-depth analysis using visualizations to understand the dataset's structure, distributions, and relationships. Key visuals generated during this phase include:
+3. Exploratory Data Analysis (EDA): Performed in-depth analysis using visualizations to understand the dataset's structure, distributions, and relationships. Key visuals generated during this phase include:
 
 [-> INSERT GRAPH HERE: Feature Correlation Heatmap]
 A heatmap showing the correlation between different pollutants and the AQI. This helped identify which features were most influential.
