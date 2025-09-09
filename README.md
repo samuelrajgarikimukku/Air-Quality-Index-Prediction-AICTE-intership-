@@ -3,7 +3,7 @@
 A machine learning project to predict the Air Quality Index (AQI) using daily atmospheric pollutant data. This model analyzes various pollutants to forecast the overall air quality, providing a valuable tool for environmental monitoring and public health awareness.
 
 ## Table of Contents
-- [Problem Statement](ProblemStatement)
+- [Problem Statement]([ProblemStatement](https://github.com/samuelrajgarikimukku/Air-Quality-Index-Prediction-AICTE-intership-/blob/main/README.md#problem-statement))
 - [Project Workflow](ProjectWorkflow)
 - [Dataset](Dataset)
 - [Technology Stack](TechnologyStack)
@@ -61,17 +61,17 @@ Features **(Pollutants)**: PM_2.5, PM_10, NO, NO_2, NO_x, NH_3, CO, SO_2, O_3, B
 To run this project on your local machine, follow these steps:
 
 ### 1. lone the repository:
-    _ ** git clone https://github.com/your-username/your-repo-name.git
-      cd your-repo-name **_
-### 2. Create a requirements.txt file with the following content:
+    git clone https://github.com/your-username/your-repo-name.git
+      cd your-repo-name
+## 2. Create a requirements.txt file with the following content:
       numpy
       pandas
       matplotlib
       seaborn
       scikit-learn
 ### 3. Install the required libraries:
-    _    ** pip install -r requirements.txt **_
-### 4. Run the Jupyter Notebook:
+    pip install -r requirements.txt 
+## 4. Run the Jupyter Notebook:
     Open the .ipynb file in Jupyter Notebook or Google Colab and run the cells sequentially to see the entire workflow from data cleaning to model evaluation.
 
 ## Results and Conclusion
