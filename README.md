@@ -28,7 +28,8 @@ The project followed a structured machine learning pipeline:
 
 A heatmap showing the correlation between different pollutants and the AQI. This helped identify which features were most influential.
 
-[-> INSERT GRAPH HERE: AQI Distribution Histogram]
+<img width="489" height="489" alt="image" src="https://github.com/user-attachments/assets/bd5ca42f-bb06-4373-9158-941c86ae2961" />
+
 A histogram of the AQI target variable. This showed the frequency of different air quality levels in the dataset.
 
 3. Feature Engineering: Standardized all numerical features using StandardScaler to bring them to a common scale, which is essential for the performance of many machine learning algorithms.
