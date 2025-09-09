@@ -11,12 +11,12 @@ A machine learning project to predict the Air Quality Index (AQI) using daily at
 - [Results and Conclusion]()
 - [Future Scope]()
 
-🎯 ##Problem Statement
+ ## Problem Statement
 Air pollution is a critical environmental and health issue worldwide. High AQI values are linked to severe health problems, including respiratory illnesses and cardiovascular diseases. The ability to accurately predict the AQI in advance allows for timely public health warnings and proactive measures to mitigate pollution.
 
 This project aims to develop a robust regression model that can predict the numerical AQI value based on the concentrations of key air pollutants.
 
-🔄 ##Project Workflow
+## Project Workflow
 The project followed a structured machine learning pipeline:
 
 1. Data Cleaning & Preprocessing:
